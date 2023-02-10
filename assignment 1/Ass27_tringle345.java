@@ -18,7 +18,8 @@ class tringle
 		double c=sc.nextDouble();
 		
 		double perimeter=a+b+c;
-		System.out.println("Perimeter Of 4 side Tringle "+perimeter);
+		System.out.println();
+		System.out.println("Perimeter Of 3 side Tringle "+perimeter);
 		 double sp=perimeter/2;
 		 double area=Math.sqrt(sp*(sp-a)*(sp-b)*(sp-c));
 		 System.out.println("Area Of Tringle "+area);
@@ -26,6 +27,7 @@ class tringle
 	
 	public void tri4side() {
 		Scanner sc=new Scanner(System.in);
+		System.out.println();
 		System.out.println("Enter The 4 Side Of Tringle ");
 		double a=sc.nextDouble();
 		double b=sc.nextDouble();
@@ -44,6 +46,7 @@ class tringle
 	
 	public void tri5side() {
 		Scanner sc=new Scanner(System.in);
+		System.out.println();
 		System.out.println("Enter The 5 Side Of Tringle ");
 		double a=sc.nextDouble(); //5
 		double b=sc.nextDouble(); //4 //8
